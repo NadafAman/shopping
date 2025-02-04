@@ -1,0 +1,9 @@
+.app--container{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.router--container{
+  height: calc(100% - 56px);
+  width: 100%;
+}
