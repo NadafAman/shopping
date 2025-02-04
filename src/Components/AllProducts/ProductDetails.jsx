@@ -7,7 +7,7 @@ const ProductDetail = () => {
   const products = useSelector((state) => state.products.products);
   const [product, setProduct] = useState(null);
   const [relatedProducts, setRelatedProducts] = useState([]);
-
+  console.log(product)
   useEffect(() => {
     const selectedProduct = products.find((p) => p.id === Number(id));
     if (selectedProduct) {
